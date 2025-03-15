@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
@@ -29,10 +28,10 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
         <Link href="#" className="flex items-center">
-          <Image
-            src="/logo.jpg" // Replace with your logo path
-            alt="KFU Guest House Logo"
-            className="h-10 rounded-full" // Adjust height as needed
+          <img
+            src="/logo.jpg"
+            alt="KFU Guest House"
+            className="h-10 rounded-full"
           />{" "}
           <span className="ml-2"> KFU</span>
         </Link>

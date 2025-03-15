@@ -1,5 +1,4 @@
 "use client"; // Required for using React hooks in Next.js
-import Image from "next/image";
 import { useState } from "react";
 
 const Gallery = () => {
@@ -43,7 +42,7 @@ const Gallery = () => {
           onClick={() => setSelectedImage(null)}
         >
           <div className="relative w-[80vw] h-[80vh] flex items-center justify-center">
-            <Image
+            <img
               src={selectedImage}
               alt="Full Screen"
               className="max-w-full max-h-full object-contain rounded-lg"
