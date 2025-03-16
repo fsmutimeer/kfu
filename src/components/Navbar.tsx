@@ -22,7 +22,7 @@ const Navbar = () => {
   return (
     <nav
       className={`${
-        isScrolled ? "bg-green-800" : "bg-transparent"
+        isScrolled ? "bg-green-800" : "bg-green-800"
       } p-4 sticky top-0 z-50 transition-all duration-300 ease-in-out`}
     >
       <div className="container mx-auto flex justify-between items-center">
