@@ -20,7 +20,8 @@ const Contact = () => {
             </div>
             <div className="mb-8">
               <h3 className="text-xl font-bold text-green-800 mb-2">Phone</h3>
-              <p>+92 342 1919617</p>
+              <p>Bhandara Fayaz: +92 342 1919617</p>
+              <p>Faizi Khan: +92 347 0700221</p>
             </div>
             <div>
               <h3 className="text-xl font-bold text-green-800 mb-2">Email</h3>
